@@ -20,4 +20,4 @@ class Movie(models.Model):
     website = models.URLField(blank=True)
 
     def __str__(self):
-        return f'{self.title} {self.year}'
+        return f'{self.title} ({self.year})'
